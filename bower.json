@@ -7,7 +7,7 @@
     "output"
   ],
   "dependencies": {
-    "purescript-sdom": "git@github.com:paf31/purescript-sdom.git",
+    "purescript-sdom": "https://github.com/paf31/purescript-sdom.git#d1abd6d480c972234d525738abf08c6be68902e2",
     "purescript-profunctor-lenses": "^3.8.0"
   },
   "devDependencies": {

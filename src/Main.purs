@@ -73,7 +73,7 @@ task = E.span_
       _.completed
       (_ { completed = _ })
   , prop (SProxy :: SProxy "description") textbox
-  , labels
+  , prop (SProxy :: SProxy "labels") labels
   , E.button
       []
       [ Events.click \{ index } _ -> Left (Here (fromMaybe <*> deleteAt index)) ]
